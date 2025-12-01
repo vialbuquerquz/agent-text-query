@@ -7,17 +7,12 @@ Este projeto implementa um agente de IA que traduz consultas em português  para
 
 ## 📋 Índice
 
-* [✨ Funcionalidades](#-funcionalidades)
-
-* [🛠️ Tecnologias Utilizadas](#-Tecnologias-Utilizadas)
-
-* [📁 Estrutura do Projeto](#Estrutura-do-projeto)
-
-* [🖼️ Arquitetura do Flow](#Arquitetura-do-Flow)
-
-* [🚀 Instalação e Execução](#Instalação-e-execução)
-
-* [📖 Exemplos de Uso](#Exemplos-de-Uso)
+* [✨ Funcionalidades](#funcionalidades)
+* [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
+* [📁 Estrutura do Projeto](#estrutura-do-projeto)
+* [🖼️ Arquitetura do Flow](#arquitetura-do-flow-langflow-canvas)
+* [🚀 Instalação e Execução](#instalação-e-execução)
+* [📖 Exemplos de Uso](#exemplos-de-uso)
 
 ## ✨ Funcionalidades
 ### 1. Tradução Inteligente
