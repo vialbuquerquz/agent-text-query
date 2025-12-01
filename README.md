@@ -4,16 +4,6 @@ Conversor Inteligente de Linguagem Natural para SQL.
 
 Este projeto implementa um agente de IA que traduz consultas em português  para comandos SQL válidos. O pipeline foi construído visualmente no Langflow e containerizado com Docker, simulando uma interface de consulta a bancos de dados relacionais.
 
-
-## 📋 Índice
-
-* [✨ Funcionalidades](#funcionalidades)
-* [🛠️ Tecnologias Utilizadas](#tecnologias-utilizadas)
-* [📁 Estrutura do Projeto](#estrutura-do-projeto)
-* [🖼️ Arquitetura do Flow](#arquitetura-do-flow-langflow-canvas)
-* [🚀 Instalação e Execução](#instalação-e-execução)
-* [📖 Exemplos de Uso](#exemplos-de-uso)
-
 ## ✨ Funcionalidades
 ### 1. Tradução Inteligente
 
