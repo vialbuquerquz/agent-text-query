@@ -1,0 +1,38 @@
+version: '3'
+
+services:
+  langflow:
+    image: langflowai/langflow:latest
+    ports:
+      - "7860:7860"
+    environment:
+      - LANGFLOW_HOST=0.0.0.0
+    user: root
+    volumes:
+      - ./langflow_data:/root/.cache/langflow
+    depends_on:
+      - ollama
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama_backend
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_storage:/root/.ollama 
+    restart: always
+
+  ollama-model-puller:
+    image: ollama/ollama:latest
+    container_name: ollama_puller
+    environment:
+      - OLLAMA_HOST=ollama:11434 
+    volumes:
+      - ollama_storage:/root/.ollama
+    entrypoint: /bin/sh
+    command: -c "sleep 5 && ollama pull nomic-embed-text && echo 'Modelo baixado com sucesso!'"
+    depends_on:
+      - ollama
+
+volumes:
+  ollama_storage:
