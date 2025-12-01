@@ -102,7 +102,7 @@ cd agent-text-to-query
 
 
 
-## 📖 Exemplos de Uso
+## 📖 Exemplo de Uso
 
 #### Entrada do Usuário:
 
